@@ -177,7 +177,7 @@ public sealed class REPOSlider : REPOElement
         barSizeRectTransform.localPosition -= movementShift;
         
         var labelSizeDelta = labelTMP.rectTransform.sizeDelta;
-        labelSizeDelta.y -= 2;
+        labelSizeDelta.y -= 4;
         labelTMP.rectTransform.sizeDelta = labelSizeDelta;
         
         var buttons = GetComponentsInChildren<Button>();
